@@ -1,10 +1,10 @@
-.Layout {
+.LayoutTwo {
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-.Layout main{
+.LayoutTwo main{
     display: flex;
     flex-direction: column;
     flex-grow: 1;

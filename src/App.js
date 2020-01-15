@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from "./hoc/Layout/Layout";
+import Layout from "./hoc/Layout/LayoutTwo";
 import Quiz from "./containers/Quiz/Quiz";
 
 
