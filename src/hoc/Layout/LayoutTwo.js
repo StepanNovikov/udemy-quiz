@@ -16,11 +16,18 @@ class LayoutTwo extends Component {
         })
     }
 
+    menuCloseHandler = () => {
+        this.setState({
+            menu: false
+        })
+    }
+
     render() {
         return(
             <div className={classes.LayoutTwo}>
                 <Drawer
                     isOpen = {this.state.menu}
+                    onClose={this.menuCloseHandler}
                 />
 
                 <MenuToggle
